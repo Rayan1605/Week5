@@ -5,7 +5,13 @@ public class Rectangle {
     public double getLength() {
         return length;
     }
+    public Rectangle(){
 
+    }
+    public Rectangle(double length, double width){
+        this.length = length;
+        this.width = width;
+    }
     public void setLength(double length) {
         this.length = length;
     }
